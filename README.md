@@ -26,7 +26,7 @@
 
 ### 四、划重点
 
-> + 分布式和高并发是如何实现的？Prefork异步模型+Zookeeper服务发现、
+> + 分布式和高并发是如何实现的？Prefork异步模型+Zookeeper服务发现
 
 ### 五、提供了什么RPC服务？
 
@@ -35,7 +35,7 @@
 ### 六、项目的组成部分
 
 1. [源程序文件](https://github.com/sin-coder/Distributed_RPC/tree/master/Source%20Files)：在Source Files中有两个文件，server.py和client.py，具体如何使用请看部署和测试模块
-2. 使用模块简介：Socket、asyncore、json、struct、kazoo等类库，具体请看模块简介文件
+2. [使用模块简介](https://github.com/sin-coder/Distributed_RPC/blob/master/%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B.md)：Socket、asyncore、json、struct、kazoo等类库，具体请看模块简介文件
 3. 系统架构图：客户端、服务端、分布式数据库整体的工作流程图
 4. 部署和测试：组件的安装，文件的执行、典型场景下的测试
 5. 遇到的问题：Windows对一些进程管理模块不支持、Zookeeper数据库的安装等
